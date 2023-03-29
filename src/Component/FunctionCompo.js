@@ -1,12 +1,17 @@
 import React from 'react'
 
+const inlineComp={
+  color: 'blue', 
+}
 function FunctionCompo() {
   return (
-    <>
-    <h1>This is created using Function Components</h1>
+  <div className="combinedDiv">
+      <div className='boxF'>
+    <h2>This is created using Function Components</h2>
     <p>This is Done by using External CSS</p>
-    <p>This is Done by using Inline CSS</p>
-    </>
+    <p style={inlineComp}>This is Done by using Inline CSS</p>
+    </div>
+  </div>
   )
 }
 
