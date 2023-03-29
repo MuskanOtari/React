@@ -8,7 +8,7 @@ function App() {
     <div className="App">
     <h1>Styling using Functional and Class Component</h1>
       {/* <FirstComponent/> */}
-    <AppClass />
+    <AppClass/>
   
 
 </div>

@@ -15,11 +15,13 @@ class AppClass extends Component {
         return (
             <>
             <div className="btnD">
-            <button className="btn" onClick={()=>this.setState( {functionClick: !this.state.functionClick })}>To see styling in class component</button>
+            <button className="btn" onClick={()=>this.setState( {functionClick: !this.state.functionClick })}>To see styling in function component</button>
             <button className="btn" onClick={()=>this.setState( {classClick: !this.state.classClick })}>To see styling in class component</button>
             </div>
-              {this.state.functionClick ? <FunctionCompo/>:null}
-                {this.state.classClick ? <ClassCompo/>:null}
+            <div className="combinedDiv">
+            {this.state.functionClick ? <FunctionCompo/>:null}
+            {this.state.classClick ? <ClassCompo/>:null}
+            </div>
             </>
 
         )

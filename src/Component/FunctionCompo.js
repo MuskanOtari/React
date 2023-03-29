@@ -5,8 +5,8 @@ const inlineComp={
 }
 function FunctionCompo() {
   return (
-  <div className="combinedDiv">
-      <div className='boxF'>
+  <div>
+    <div className='boxF'>
     <h2>This is created using Function Components</h2>
     <p>This is Done by using External CSS</p>
     <p style={inlineComp}>This is Done by using Inline CSS</p>

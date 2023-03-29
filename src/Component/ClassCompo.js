@@ -4,7 +4,7 @@ const inlineComp={
 }
 function ClassCompo() {
   return (
-  <div className="combinedDiv">
+  <div>
     <div className='boxC'> 
     <h2>This is created using Class Components</h2>
     <p>This is Done by using External CSS</p>

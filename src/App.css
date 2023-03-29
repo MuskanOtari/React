@@ -125,8 +125,7 @@ p {
 
 .combinedDiv {
     display: flex;
-    height: fit-content;
     justify-content: space-between;
     margin: 4vw;
-    width: 92vw;
+    width: auto;
 }
